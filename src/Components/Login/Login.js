@@ -5,6 +5,7 @@ import LoginCreate from './LoginCreate'
 import LoginPasswordLost from './LoginPasswordLost'
 import LoginPasswordReset from './LoginPasswordReset'
 
+// Aqui já declaro e enumero todas as rotas que terei dentro da pagina de Login
 function Login() {
   return (
     <div>Login
