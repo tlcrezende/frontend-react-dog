@@ -6,6 +6,7 @@ const LoginForm = () => {
   const [password, setPassword] = React.useState("");
 
   function handleSubmit(event) {
+    // sempre lembrar de prevenir o default antes de fazer um fetch
     event.preventDefault();
     fetch('https://dogsapi.origamid.dev/json/jwt-auth/v1/token', {
         method: 'POST',
